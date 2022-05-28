@@ -88,7 +88,7 @@ export default function CarDetails() {
 
               <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
                 <TableCell component="th" scope="row">
-                Boot Space
+                Boot Space (litres)
                 </TableCell>
                 <TableCell align="left">{companyCars.Boot_Space}</TableCell>
               </TableRow>
@@ -96,7 +96,7 @@ export default function CarDetails() {
 
               <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
                 <TableCell component="th" scope="row">
-                Ex-Showroom Price
+                Ex-Showroom Price (in Rs.)
                 </TableCell>
                 <TableCell align="left">{companyCars["Ex-Showroom_Price"]}</TableCell>
               </TableRow>
@@ -131,7 +131,7 @@ export default function CarDetails() {
 
               <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
                 <TableCell component="th" scope="row">
-                Fuel Tank Capacity
+                Fuel Tank Capacity (litres)
                 </TableCell>
                 <TableCell align="left">{companyCars.Fuel_Tank_Capacity}</TableCell>
               </TableRow>
@@ -145,21 +145,21 @@ export default function CarDetails() {
 
               <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
                 <TableCell component="th" scope="row">
-                Height
+                Height (in mm)
                 </TableCell>
                 <TableCell align="left">{companyCars.Height}</TableCell>
               </TableRow>
 
               <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
                 <TableCell component="th" scope="row">
-                Length
+                Length (in mm)
                 </TableCell>
                 <TableCell align="left">{companyCars.Length}</TableCell>
               </TableRow>
 
               <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
                 <TableCell component="th" scope="row">
-                Width
+                Width (in mm)
                 </TableCell>
                 <TableCell align="left">{companyCars.Width}</TableCell>
               </TableRow>
@@ -180,14 +180,14 @@ export default function CarDetails() {
 
               <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
                 <TableCell component="th" scope="row">
-                City Mileage
+                City Mileage (km/litre)
                 </TableCell>
                 <TableCell align="left">{companyCars.City_Mileage}</TableCell>
               </TableRow>
 
               <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
                 <TableCell component="th" scope="row">
-                Highway_Mileage
+                Highway_Mileage (km/litre)
                 </TableCell>
                 <TableCell align="left">{companyCars.Highway_Mileage}</TableCell>
               </TableRow>
@@ -201,7 +201,7 @@ export default function CarDetails() {
 
               <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
                 <TableCell component="th" scope="row">
-                Ground Clearance
+                Ground Clearance (in mm)
                 </TableCell>
                 <TableCell align="left">{companyCars.Ground_Clearance}</TableCell>
               </TableRow>
