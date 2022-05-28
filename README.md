@@ -1,5 +1,5 @@
 # Enagage-Carwiz-frontend
-Backend Repository for Engage'22 project
+Frontend Repository for Engage'22 project
 
 ## Points to Remember while running the files on your system:
 
