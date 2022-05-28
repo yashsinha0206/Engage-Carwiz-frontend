@@ -535,21 +535,21 @@ export default function DashboardApp() {
 
           <Grid item xs={12} md={12} lg={12}>
             <AppConversionRates
-              title="Average Price vs Power"
+              title="Average Price (in Rs.) vs Power"
               subheader={displayCompany}
               chartData={power}
             />
           </Grid>
           <Grid item xs={12} md={12} lg={12}>
             <AppConversionRates
-              title="City Mileage vs Model"
+              title="City Mileage (km/litre) vs Model"
               subheader={displayCompany}
               chartData={mileage}
             />
           </Grid>
           <Grid item xs={12} md={12} lg={12}>
             <AppConversionRates
-              title="Car Properties"
+              title="Number of Cars vs Car Properties"
               subheader={displayCompany}
               chartData={carProperties}
             />
