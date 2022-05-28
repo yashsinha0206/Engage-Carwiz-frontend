@@ -187,7 +187,7 @@ export default function CarDetails() {
 
               <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
                 <TableCell component="th" scope="row">
-                Highway_Mileage (km/litre)
+                Highway Mileage (km/litre)
                 </TableCell>
                 <TableCell align="left">{companyCars.Highway_Mileage}</TableCell>
               </TableRow>
@@ -208,14 +208,14 @@ export default function CarDetails() {
 
               <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
                 <TableCell component="th" scope="row">
-                Front_Brakes
+                Front Brakes
                 </TableCell>
                 <TableCell align="left">{companyCars.Front_Brakes}</TableCell>
               </TableRow>
 
               <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
                 <TableCell component="th" scope="row">
-                Rear_Brakes
+                Rear Brakes
                 </TableCell>
                 <TableCell align="left">{companyCars.Rear_Brakes}</TableCell>
               </TableRow>
